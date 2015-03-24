@@ -1,0 +1,40 @@
+.responsive-map {
+width: 100%;
+height: 500px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.responsive-map {
+width: 100%;
+height: 500px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.responsive-map {
+width: 100%;
+height: 600px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) {
+.responsive-map {
+width: 100%;
+height: 800px;
+}
+}
+
+.map-toggle {
+position: fixed;
+right: 10px;
+top: 90px;
+}
+
+.map-toggle .dropdown-menu {
+right: 0px;
+left: auto;
+text-align: left;
+}

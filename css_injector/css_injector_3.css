@@ -1,0 +1,36 @@
+.footer p a {
+color: white;
+}
+
+.footer h1 {
+color: white;
+}
+
+.footer address {
+color: white;
+}
+
+.footer strong {
+color: white;
+font-size: 14px;
+line-height: 1em;
+text-decoration: underline;
+}
+
+.logofooter {
+height:60px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
+address a {
+  color:white;
+}
+
+footer.footer, footer.container {
+width: 100%;
+background-color: transparent;
+background-image:url('http://sunyfredonia.github.io/img/mochaGrunge.png');
+background-repeat: repeat;
+margin-top: 20px;
+}

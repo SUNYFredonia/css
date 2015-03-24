@@ -1,0 +1,150 @@
+/* Special CSS for SUNY Fredonia's Home page */
+
+a {
+color: #0038a8;
+text-decoration: none;
+}
+
+a:hover {
+color: #0038a8;
+opacity: 0.8;
+}
+
+form {
+max-width: 960px;
+padding: 5px;
+margin-right: auto;
+margin-left: auto;
+}
+
+/* Major elements */
+body.navbar-is-fixed-top {
+  padding-top: 0px!important;
+}
+
+.main-container {
+width:100%;
+max-width: 100%;
+}
+
+.nav-buffer {
+margin-top: 70px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.nav-buffer {
+margin-top: 80px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.nav-buffer {
+margin-top: 80px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.nav-buffer {
+margin-top: 80px;
+}
+}
+
+.row {
+padding: 0;
+margin: 0;
+max-width: 100%;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  max-width: 100%;
+}
+
+.fred-container {
+max-width: 1170px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.panels-flexible-region-2-center {
+width:100%;
+}
+
+p {
+font-size: 16px;
+max-width: 850px;
+margin-left: auto;
+margin-right: auto;
+font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+font-family: helvetica, arial, sans-serif;
+}
+
+
+
+/* Accordions need padding when stacked */
+.panel-group {
+margin-bottom: 5px;
+}
+
+/* Center block class for quickly centering objects and text */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Social Icon group class */
+.socialicons {
+font-size: 30px;
+}
+
+/* Logo */
+.fred-logo {
+margin: 20px;
+}
+
+/*ALERTS*/
+
+.alert {
+position: fixed;
+top: 90px;
+z-index: 5000;
+max-width: 600px;
+margin-right: 15px;
+}
+
+.alert .close {
+padding-left: 5px;
+}
+
+/* ADMISSIONS */
+.admissions img {
+margin: 10px 0 10px 0;
+}
+
+/* Backgrounds */
+
+.mission {
+background-color: transparent;
+background-image:url('http://sunyfredonia.github.io/img/paper_fibers.png');
+background-repeat: repeat;
+}
+
+.boxtype {
+background-color: #c67f07;
+}
+
+.smalltext { 
+font-size: 80%; 
+}
