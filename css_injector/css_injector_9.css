@@ -115,6 +115,23 @@ margin: 20px;
 }
 
 /*ALERTS*/
+.alert-stripe-info {
+background-color: blue;
+margin-top: -14px;
+padding: 5px;
+}
+
+.alert-stripe-warning {
+background-color: yellow;
+margin-top: -14px;
+padding: 5px;
+}
+
+.alert-stripe-danger {
+background-color: red;
+margin-top: -14px;
+padding: 5px;
+}
 
 .alert {
 position: fixed;
